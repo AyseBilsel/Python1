@@ -1,0 +1,13 @@
+i = 0
+while (i < 100):
+    print(i)
+    i += 1
+    
+
+
+
+
+cumle = "Ben Ayşe Bilsel"
+for i in range(len(cumle)):
+    if( cumle[i]  == 'l'):
+        print("l varmış. index: " + str(i+1))
