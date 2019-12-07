@@ -1,0 +1,16 @@
+dizi = [1,2,54,4567,563,2,54,7,4,-5,500]
+toplam = sum(dizi)
+print(toplam)
+
+
+toplam = 0
+for i in range (len(dizi)):
+    toplam += dizi[i]
+print(toplam)
+
+print("Dizinin ortalaması: " + str(toplam/len(dizi)))
+
+dizi.sort()
+print(dizi)
+medyan = dizi[len(dizi) // 2]
+print("Dizinin medyanı: " + str(medyan))
